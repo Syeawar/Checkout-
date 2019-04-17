@@ -236,7 +236,6 @@ int main()
 		case 2:
 			Bookreturn(books);
 			break;
-
 		case 3:
 			AvaBooks(books);
 			break;
@@ -246,7 +245,7 @@ int main()
 			break;
 
 		case 5:
-			// View outstanding rentals for a cardholder
+		Outcardholder(book,cardholer);
 			break;
 
 		case 6:

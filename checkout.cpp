@@ -182,20 +182,7 @@ void Outcardholder(vector<Book*> &book, vector<Person*> &card) {
 
 
 }
-void newcard(vector<Person*> &card, int newcard) {
-	string fName;
-	string lName;
-	for (int i = 0; i< card.size(); i++) {
-		if (card.at(i)->getFirstName() == fName && card.at(i)->getLastName() == lName) {
-			card.at(i)->setActive(1);
-			cout << " ID" << card.at(i)->getId() << " active" << " Cardholders" << card.at(i)->getFirstName()
-				<< card.at(i)->getLastName() << endl;
 
-
-
-		}
-	}
-}
 void closecard() {
 
 }

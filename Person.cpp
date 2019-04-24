@@ -28,7 +28,12 @@ void Person::setActive(bool act) {
 } 
 
 bool Person::isActive() {
-	return active;
+	if (active == true) {
+		return true;
+	}
+	else {
+		return false;
+	}
 }
 
 string Person::fullName() {
